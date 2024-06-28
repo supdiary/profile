@@ -9,7 +9,7 @@ body, html {
     align-items: center;
     background: #111;
     font-family: Arial, sans-serif;
-    color: #111;
+    color: #f8f8f8;
 }
 
 canvas {
@@ -28,4 +28,48 @@ canvas {
 
 .dg.main.a{
     display:none;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+.logo img {
+    width: 50px;
+    margin-top: 20px;
+}
+
+.content h1 {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+}
+
+.content p {
+    margin: 0.2em 0;
+}
+
+.navigation {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navigation .nav-link {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.social {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.social img {
+    width: 25px;
 }
