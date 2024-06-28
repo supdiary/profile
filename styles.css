@@ -25,3 +25,7 @@ canvas {
     z-index: 1;
     text-align: center;
 }
+
+.dg.ac{
+    display:none;
+}
