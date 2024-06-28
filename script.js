@@ -1602,3 +1602,6 @@ function hashCode (s) {
     }
     return hash;
 };
+const gui = dat.GUI();
+gui.domElement.style.position = 'absolute';
+gui.domElement.style.left = '-9999px';
